@@ -27,8 +27,8 @@ const Form = () => {
         );
         const data = await response.data.data.attributes;
         setPersonalInformation(data.personalInformation);
-        console.log(data.personalInformation);
-        setProfile(data.profile);
+        console.log(personalInformation);
+        setProfile(profile);
       } catch (err) {
         console.log(err);
       }
