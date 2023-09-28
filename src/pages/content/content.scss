@@ -1,0 +1,24 @@
+@import '../../styles//global.scss';
+
+.content{
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .buttonContainer{
+        display: flex;
+        flex-direction: row-reverse;
+        button{
+            background-color: rgba(4, 85, 4, 0.884);
+            color: white;
+            font-weight: 500;
+            padding: 15px 45px;
+            font-size: 13kpx;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+

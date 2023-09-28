@@ -1,0 +1,22 @@
+.navContainer{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+
+    .option{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 300px;
+        cursor: pointer;
+        
+        
+    }
+
+    .application {
+        background-color: rgb(240, 216, 240);
+    }
+}

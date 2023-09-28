@@ -1,0 +1,9 @@
+.video{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .duration{
+        display: flex;
+        gap: 5px;
+    }
+}
